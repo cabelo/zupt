@@ -25,8 +25,8 @@ Zupt compresses and encrypts backup archives. LZ77+Huffman compression, AES-256-
 ## Quick Start
 
 ```bash
-# Build
-git clone https://github.com/cristiancmoises/zupt.git && cd zupt && make
+# Build 
+git clone https://github.com/cristiancmoises/zupt.git && cd zupt && make clean && make
 
 # Password-encrypted backup
 zupt compress -p backup.zupt ~/Documents/
